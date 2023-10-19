@@ -15,7 +15,7 @@ export default function Components() {
           customize to your heart&apos;s content.
         </p>
       </div>
-      <Link href={'/components'} className="text-sm text-blue-500  underline">Browse all components &rarr;</Link>
+      <Link href={'/'} className="text-sm text-blue-500  underline">Browse all components &rarr;</Link>
     </div>
   );
 }

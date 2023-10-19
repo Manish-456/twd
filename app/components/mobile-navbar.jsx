@@ -24,7 +24,7 @@ export function MobileNavbar({ open, onClose }) {
               <Image src={"/tailwindcss.svg"} fill alt="logo" />
             </Link>
             <RxCross2
-              size={20}
+              size={25}
               role="button"
               className="hover:text-slate-500"
               onClick={onClose}
