@@ -8,13 +8,13 @@ export function MobileNavbar({ open, onClose }) {
   return (
     <>
       <div
-        className={`min-h-screen shadow-slate-700 md:hidden ${
+        className={`min-h-screen shadow-slate-700 lg:hidden ${
           open ? "block" : "hidden"
         } fixed z-[99] inset-0  backdrop-blur-sm`}
       />
       <div
      
-        className={`md:hidden transition-all ${
+        className={`lg:hidden transition-all ${
           open ? "block" : "hidden"
         } min-h-screen z-[999] fixed w-[80%] inset-y-0 right-0 bg-white`}
       >
